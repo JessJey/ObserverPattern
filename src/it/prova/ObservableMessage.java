@@ -28,4 +28,18 @@ public class ObservableMessage {
 		}
 	}
 
+	public List<Observer> getDispositivi() {
+		return dispositivi;
+	}
+
+	public void setDispositivi(List<Observer> dispositivi) {
+		this.dispositivi = dispositivi;
+	}
+
+	public String getNotifica() {
+		return notifica;
+	}
+	
+	
+
 }
